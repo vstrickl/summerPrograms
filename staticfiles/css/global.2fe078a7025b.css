@@ -1,0 +1,15 @@
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* Colors */
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-xl: 1.111rem;
+}

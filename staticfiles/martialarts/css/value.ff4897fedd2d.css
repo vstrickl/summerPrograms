@@ -1,0 +1,48 @@
+.value-proposition {
+  background-color: #e3652e;
+}
+
+.kali-icon {
+  margin-left: -726.4000000000015px;
+  height: 31.117rem;
+  width: 28.561rem;
+  position: relative;
+  right: 4rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.shaolin-kung-fu-icon {
+  height: 31.267rem;
+  width: 31.5rem;
+  position: relative;
+  left: 22rem;
+  object-fit: contain;
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 642px) {
+  .hero-value-seperator {
+    gap: 5.611rem 11.25rem;
+  }
+
+  .value-proposition {
+    flex-wrap: wrap;
+    gap: 11.794rem 2.944rem;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 321px) {
+  .hero-value-seperator {
+    gap: 2.833rem 11.25rem;
+  }
+
+  .value-proposition {
+    gap: 11.794rem 1.5rem;
+  }
+}

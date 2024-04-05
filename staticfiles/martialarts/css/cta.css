@@ -1,0 +1,41 @@
+.cta {
+  background-color: #f0b754;
+}
+
+.bjj-guy-icon {
+  position: relative;
+  top: 22.483rem;
+  left: 50.344rem;
+  width: 38.5rem;
+  height: 45.567rem;
+  z-index: 1;
+}
+
+.cta-btn {
+  background-color: black; /* Green */
+  border: none;
+  border-radius: 50px; /* Pill shape */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  text-decoration: none; /* Optional: Removes underline from links */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+}
+
+.cta-btn:hover, .btn-evening .btn:hover {
+  background-color: #E5782B; /* Inverted background color */
+  color: black; /* Inverted text color */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Optional: Enhance shadow on hover */
+}
+
+@media screen and (max-width: 642px) {
+  .bjj-guy-icon {
+    position: relative;
+    top: 6rem;
+    left: 13.25rem;
+    width: 40%;
+    height: 40%;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 321px) {
+
+}

@@ -1,0 +1,23 @@
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.martial-arts-primary {
+  color: #E5782B!important;
+}
+
+:root {
+  /* Colors */
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-xl: 1.111rem;
+}

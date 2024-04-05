@@ -1,0 +1,18 @@
+.bottom-value-prop-icon {
+  margin-left: -29.799999999999272px;
+  height: 34.078rem;
+  width: 73.256rem;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+
+.benefits-features {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}

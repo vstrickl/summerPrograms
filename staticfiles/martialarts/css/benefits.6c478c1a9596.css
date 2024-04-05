@@ -1,0 +1,23 @@
+.bottom-value-prop-icon {
+  margin-left: -29.799999999999272px;
+  height: 34.078rem;
+  width: 73.256rem;
+  position: relative;
+  object-fit: cover;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.benefits-features {
+  width: 100%;
+  height: 124.167rem;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0rem 0rem 110.833rem;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}

@@ -1,0 +1,27 @@
+.value-proposition {
+  background-color: #e3652e;
+}
+
+.kali-icon {
+  height: 31.117rem;
+  width: 28.561rem;
+  position: relative;
+  right: 42rem;
+  z-index: 1;
+}
+
+.shaolin-kung-fu-icon {
+  height: 31.267rem;
+  width: 31.5rem;
+  position: relative;
+  left: 22rem;
+  z-index: 1;
+}
+
+
+@media screen and (max-width: 642px) {
+
+}
+@media screen and (max-width: 321px) {
+
+}

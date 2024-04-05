@@ -1,0 +1,102 @@
+.intro-hero {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 2rem 0rem 0rem;
+  box-sizing: border-box;
+  gap: 30.306rem;
+  letter-spacing: normal;
+}
+
+.sun-tree-wrapper {
+  align-self: stretch;
+  height: 59.761rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0rem 0.533rem 0rem 1rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.sun-tree-icon {
+  height: 59.761rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.button-container-parent {
+  align-self: stretch;
+  height: 32.1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 11.25rem;
+  max-width: 100%;
+}
+
+.button-container {
+  align-self: stretch;
+  height: 7.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0rem 1.167rem 0rem var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.hero-cta-btn {
+  background-color: #E5782B; /* Green */
+  border: none;
+  border-radius: 50px; /* Pill shape */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  text-decoration: none; /* Optional: Removes underline from links */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Drop shadow */
+}
+
+.hero-cta-btn:hover, .btn-evening .btn:hover {
+  background-color: black; /* Inverted background color */
+  color: #E5782B; /* Inverted text color */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3); /* Optional: Enhance shadow on hover */
+}
+
+.hero-bottom {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 642px) {
+  .button-container-parent {
+    gap: 5.611rem 11.25rem;
+  }
+
+  .intro-hero {
+    gap: 15.167rem 30.306rem;
+  }
+}
+@media screen and (max-width: 321px) {
+  .button-container-parent {
+    gap: 2.833rem 11.25rem;
+  }
+
+  .intro-hero {
+    gap: 7.556rem 30.306rem;
+  }
+}

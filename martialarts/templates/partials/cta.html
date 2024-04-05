@@ -1,0 +1,32 @@
+{% load static %}
+
+<!-- CTA -->
+<div>
+  <img
+    class="bjj-guy-icon"
+    loading="lazy"
+    alt=""
+    src="{% static 'martialarts/images/bjj-guy.svg' %}"
+  />
+  <img
+    class="swivel-seperator"
+    alt=""
+    src="{% static 'martialarts/images/cta-background.svg' %}"
+    />
+</div>
+
+<div
+  id="signUp"
+  class="cta section-between-swivels"
+  style="padding-left: 12%; padding-right: 12%;"
+>
+
+  <p class="h3 my-4">Ready To Get Started!!!</p>
+
+  <p class="h1 mb-4">Fill out the Application below to get your child Signed Up Today!!!</p>
+
+  <div class="cta-btn text-center ms-5 mb-5 col-md-8">
+    <a href="{% url 'apply' %}" class="btn" style="color: #E5782B;">Sign Up NOW</a>
+  </div>
+
+</div>

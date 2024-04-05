@@ -1,0 +1,11 @@
+.footer {
+  background-color: #1a2525;
+}
+
+.footer a {
+  color: white!important;
+}
+
+.footer-nav {
+  padding: 35px 25px;
+}

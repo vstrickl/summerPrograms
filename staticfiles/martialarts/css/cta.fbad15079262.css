@@ -1,0 +1,33 @@
+.cta {
+  background-color: #f0b754;
+}
+
+.bjj-guy-icon {
+  position: relative;
+  top: 22.483rem;
+  left: 38.344rem;
+  width: 38.5rem;
+  height: 45.567rem;
+  z-index: 1;
+}
+
+@media screen and (max-width: 642px) {
+  .bjj-guy-icon {
+    position: relative;
+    top: 22.483rem;
+    left: 38.344rem;
+    width: 38.5rem;
+    height: 45.567rem;
+    z-index: 1;
+  }
+}
+@media screen and (max-width: 321px) {
+  .bjj-guy-icon {
+    position: relative;
+    top: 22.483rem;
+    left: 38.344rem;
+    width: 38.5rem;
+    height: 45.567rem;
+    z-index: 1;
+  }
+}

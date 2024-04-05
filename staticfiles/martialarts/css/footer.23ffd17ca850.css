@@ -1,0 +1,14 @@
+.footer-contact-information {
+  width: 100%;
+  height: 139.688rem;
+  position: relative;
+  background-color: #1a2525;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 71.719rem;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}

@@ -1,0 +1,62 @@
+html {
+  font-size: 18px;
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+li {
+  list-style: none!important;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.martial-arts-primary {
+  background-color: #E5782B!important;
+}
+
+.martial-arts-primary-text {
+  color: #E5782B!important;
+}
+
+.swivel-seperator {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.section-between-swivels {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+:root {
+  /* Colors */
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-xl: 1.111rem;
+}
+
+@media screen and (max-width: 642px) {
+  .section-between-swivels {
+    flex-wrap: wrap;
+    gap: 11.794rem 2.944rem;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 321px) {
+  .section-between-swivels {
+    gap: 11.794rem 1.5rem;
+  }
+}

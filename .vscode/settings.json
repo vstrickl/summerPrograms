@@ -1,0 +1,21 @@
+{
+  "detectedConfig": {
+    "typescript": false,
+    "naming": "Kebab Case",
+    "unit": "px",
+    "framework": "html-css",
+    "styling": "CSS"
+  },
+  "locofyConfig": {
+    "project": "Landing Page",
+    "id": "660f31f7d4af54254cb7aced",
+    "framework": "html-css",
+    "typescript": false,
+    "styling": "CSS",
+    "unit": "rem",
+    "naming": "Kebab Case",
+    "path": "public/",
+    "componentsPath": "/Users/vonst/MyApps/apps/summerPrograms/martialarts/templates/components",
+    "screensPath": "/Users/vonst/MyApps/apps/summerPrograms/src/pages"
+  }
+}
