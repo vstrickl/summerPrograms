@@ -14,6 +14,15 @@ def the_program(request):
     }
     return render(request, 'martial_arts.html', context)
 
+def sign_up(request):
+    title = 'Summer Programs | Physique Magnifique'
+
+    context = {
+        'title': title,
+    }
+
+    return render(request, 'sales.html', context)
+
 def apply(request):
     title = 'Summer Programs | Physique Magnifique'
 
@@ -39,4 +48,4 @@ def apply(request):
         'form': form,
     }
 
-    return render(request, 'application.html', context)
+    return render(request, 'financial_aid.html', context)

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Applicant
+from .models import FinancialAidApplicant
 
 
 # Register your models here.
@@ -13,7 +13,6 @@ class ApplicantAdmin(admin.ModelAdmin):
         'city',
         'send_email',
         'send_text',
-        'need_financial_aid',
     )
 
-admin.site.register(Applicant, ApplicantAdmin)
+admin.site.register(FinancialAidApplicant, ApplicantAdmin)

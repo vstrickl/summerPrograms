@@ -1,16 +1,17 @@
 from django import forms
-from .models import Applicant
+from .models import FinancialAidApplicant
 
 
 # Create your forms here.
 class ApplicantsForm(forms.ModelForm):
     class Meta:
-        model = Applicant
+        model = FinancialAidApplicant
         fields = [
             'parent_first_name',
             'parent_last_name',
             'child_first_name',
             'child_last_name', 
+            'story',
             'street_address',
             'city',
             'state',
@@ -19,7 +20,6 @@ class ApplicantsForm(forms.ModelForm):
             'phone', 
             'send_email',
             'send_text',
-            'need_financial_aid',
         ]
 
         widgets = {
@@ -44,6 +44,12 @@ class ApplicantsForm(forms.ModelForm):
             'child_last_name': forms.TextInput(
                 attrs={
                     'placeholder': 'Child\'s Last Name',
+                    'class':'form-control mb-3',
+                }
+            ),
+            'story': forms.Textarea(
+                attrs={
+                    'placeholder': 'Tell us your story...',
                     'class':'form-control mb-3',
                 }
             ),
@@ -89,11 +95,6 @@ class ApplicantsForm(forms.ModelForm):
                 }
             ),
             'send_text': forms.CheckboxInput(
-                attrs={
-                    'class':'form-check-input',
-                }
-            ),
-            'need_financial_aid': forms.CheckboxInput(
                 attrs={
                     'class':'form-check-input',
                 }
