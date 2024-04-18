@@ -12,6 +12,7 @@ class ApplicantsForm(forms.ModelForm):
             'child_first_name',
             'child_last_name', 
             'story',
+            'household_income',
             'street_address',
             'city',
             'state',
@@ -50,6 +51,12 @@ class ApplicantsForm(forms.ModelForm):
             'story': forms.Textarea(
                 attrs={
                     'placeholder': 'Tell us your story...',
+                    'class':'form-control mb-3',
+                }
+            ),
+            'household_income': forms.TextInput(
+                attrs={
+                    'placeholder': 'What is your annual household income?',
                     'class':'form-control mb-3',
                 }
             ),
